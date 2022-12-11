@@ -106,18 +106,20 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+    padding: 2% 7% 2% 7%;
   }
 
   .personalized-content h1{
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   .personalized-content h3{
-    font-size: 20px;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
   }
 
   .personalized-content p{
-    font-size: 18px;
+    font-size: 1.8rem;
     
   }
 
