@@ -30,6 +30,13 @@
   }
   
   /* Navbar */
+
+  .logo{
+    max-width: auto;
+    max-height: 5em;
+    margin: 0%;
+  }
+
   .navbar {
     background: rgb(20, 20, 20);
     width: 100%;
@@ -88,12 +95,6 @@
     color: white;
   }
 
-  .logo{
-    max-width: auto;
-    max-height: 5em;
-    margin: 0%;
-  }
-
   /* Personalized Section */
 
   .personalized-container img{
@@ -101,9 +102,23 @@
   }
 
   .personalized-content {
+    color: black;
     display: flex;
     text-align: center;
+    flex-direction: column;
+  }
 
+  .personalized-content h1{
+    font-size: 40px;
+  }
+
+  .personalized-content h3{
+    font-size: 20px;
+  }
+
+  .personalized-content p{
+    font-size: 18px;
+    
   }
 
   /* Media Query */
