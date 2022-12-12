@@ -138,37 +138,67 @@
     color: #4ef037;
   }
 
-  .fa-utensils{
+  .fa-solid{
     font-size: 5rem;
     color: #4ef037;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
+}
 
-  .fa-dumbbell{
-    font-size: 5rem;
-    color: #4ef037;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 
-  .fa-fire{
-    font-size: 5rem;
-    color: #4ef037;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  /* Included Section */
-
-  .icon-1{
+/* Coaching Section */
+.coaching-section{
     display: flex;
-    flex-direction: row;
-  }
+    justify-content: center;
+}
 
-  .icon-2{
+.card-section p{
+  color: black;
+}
+
+.card{
+    height: 15em;
+    width: 20em;
+    margin: 10px;
+   text-align: center;
+}
+
+
+/* Coaching Section 2 */
+
+.coaching-section-two{
     display: flex;
-  }
+    justify-content: center;
+}
+
+.card-section p{
+  color: black;
+}
+
+.card{
+    height: 15em;
+    width: 20em;
+    margin: 10px;
+   text-align: center;
+}
+
+/* Coaching Section 3 */
+
+.coaching-section-three{
+    display: flex;
+    justify-content: center;
+}
+
+.card-section p{
+  color: black;
+}
+
+.card{
+    height: 15em;
+    width: 20em;
+    margin: 10px;
+   text-align: center;
+}
 
 
   /* Media Query */
