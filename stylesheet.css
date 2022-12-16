@@ -214,13 +214,13 @@
 
   /* Plans Section */
 
-  .plans-one{
+  .plans{
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .plans-one p{
+  .plans p{
     font-size: 1.8rem;
     padding:2% 7% 2% 7%;
   }
