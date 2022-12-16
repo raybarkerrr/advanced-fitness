@@ -194,15 +194,36 @@
 }
 
 .card{
-    height: 15em;
-    width: 20em;
-    margin: 10px;
-   text-align: center;
+  height: 15em;
+  width: 20em;
+  margin: 10px;
+  text-align: center;
 }
 
 /* Coaching Plan Section */
 
+.coaching-plan-title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
 
+.coaching-plan-image{
+    width: 320px;
+}
+
+  /* Plans Section */
+
+  .plans-one{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .plans-one p{
+    font-size: 1.8rem;
+    padding:2% 7% 2% 7%;
+  }
 
 
   /* Media Query */
