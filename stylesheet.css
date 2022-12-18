@@ -11,7 +11,6 @@
   
   body {
     font-family: "Poppins", serif;
-    color: rgb(214, 214, 214);
   }
   
   .container {
@@ -218,11 +217,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding:2% 7% 2% 7%;
   }
 
   .plans p{
-    font-size: 1.8rem;
-    padding:2% 7% 2% 7%;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin: 15px;
   }
 
 
