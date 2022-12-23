@@ -5,8 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat, sans-serif';
-
   }
   
   body {
@@ -224,6 +222,30 @@
     font-size: 20px;
     line-height: 1.6em;
     margin: 15px;
+  }
+
+
+  .meep {
+    border-radius: 50%;
+  }
+
+  .carousel-inner{
+    border-radius: 50%;
+  }
+
+  /* Get Started Section */
+
+  .get-started{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+  /* Meet Your Trainers Section */
+
+  .meet-your-trainers{
+    text-align: center;
+    background-color: #00b7c2;
   }
 
 
