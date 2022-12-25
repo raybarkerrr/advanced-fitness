@@ -115,9 +115,11 @@
   }
 
   .personalized-content h3{
+    padding-top: 0.5rem;
     font-size: 1.3rem;
     padding-bottom: 15px;
-    color: greenyellow;
+    color: #4ef037;
+    font-weight: bold;
   }
 
   .personalized-content p{
@@ -127,6 +129,7 @@
   /* Specialize Section */
 
   .specialize-section{
+    margin-top: 3rem;
     color: black;
     display: flex;
     text-align: center;
@@ -139,10 +142,13 @@
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     color: #434243;
+    padding-bottom: 0.5rem;
   }
 
   .specialize-title p{
     color: #4ef037;
+    font-size: 1.1em;
+    font-weight: bold;
   }
 
   .fa-solid{
@@ -157,6 +163,7 @@
 .coaching-section{
     display: flex;
     justify-content: center;
+    background-color: #EFEFEE;
 }
 
 .card-section p{
@@ -176,6 +183,7 @@
 .coaching-section-two{
     display: flex;
     justify-content: center;
+    background-color: #EFEFEE;
 }
 
 .card-section p{
@@ -194,6 +202,7 @@
 .coaching-section-three{
     display: flex;
     justify-content: center;
+    background-color: #EFEFEE;
 }
 
 .card-section p{
@@ -213,6 +222,21 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+}
+
+.coaching-plan-title h1{
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+  color: #434243;
+}
+
+.coaching-plan-title p{
+  font-size: 1.1rem;
+  padding: 2% 7% 2% 7%;
+  color: #4ef037;
+  font-weight: bold;
 }
 
 .coaching-plan-image{
