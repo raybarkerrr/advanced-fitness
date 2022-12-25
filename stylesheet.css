@@ -109,16 +109,19 @@
 
   .personalized-content h1{
     font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #434243;
   }
 
   .personalized-content h3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-bottom: 15px;
     color: greenyellow;
   }
 
   .personalized-content p{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   /* Specialize Section */
@@ -129,6 +132,13 @@
     text-align: center;
     flex-direction: column;
     padding: 2% 7% 2% 7%;
+  }
+
+  .specialize-title h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #434243;
   }
 
   .specialize-title p{
@@ -222,6 +232,10 @@
     font-size: 20px;
     line-height: 1.6em;
     margin: 15px;
+  }
+
+  .plans h2{
+    color: #4ef037;
   }
 
 
