@@ -308,15 +308,25 @@
   }
 
   .get-started-section{
-    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    flex-direction: column;
+  }
+
+  .get-started-plans{
     background-color: #929292;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .get-started-plans-two{
+    background-color: #57595b;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .get-started-section h1{
     color: #4ef037;
-    margin-top: 1rem;
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
