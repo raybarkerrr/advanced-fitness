@@ -337,6 +337,7 @@
     font-weight: lighter;
     color: #434243;
     padding: 2% 7% 2% 7%;
+    letter-spacing: .2rem;
   }
 
   .get-started-section h2{
@@ -345,6 +346,7 @@
     padding-bottom: 15px;
     color: #4ef037;
     font-weight: bold;
+    letter-spacing: .1rem;
   }
   
 
