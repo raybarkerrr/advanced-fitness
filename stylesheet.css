@@ -304,7 +304,9 @@
   /* About Page */ 
 
   .get-started-image{
-    width: 250px;
+    width: 300px;
+    height: auto;
+    padding-bottom: 1rem;
   }
 
   .get-started-section{
@@ -320,17 +322,21 @@
   }
 
   .get-started-plans-two{
-    background-color: #57595b;
+    background-color: #57595B;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
+  .get-started-plans-two h1{
+    color: #FFFFFF;
+  }
+
   .get-started-section h1{
-    color: #4ef037;
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     color: #434243;
+    padding: 2% 7% 2% 7%;
   }
 
   .get-started-section h2{
@@ -340,6 +346,9 @@
     color: #4ef037;
     font-weight: bold;
   }
+  
+
+
 
 
   /* Media Query */
