@@ -294,20 +294,41 @@
     border-radius: 50%;
   }
 
-  /* Get Started Section */
-
-  .get-started-section{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    background-color: #7a7a7a;
-  }
-
   /* Meet Your Trainers Section */
 
   .meet-your-trainers{
     text-align: center;
     background-color: #00b7c2;
+  }
+
+  /* About Page */ 
+
+  .get-started-image{
+    width: 250px;
+  }
+
+  .get-started-section{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #929292;
+  }
+
+  .get-started-section h1{
+    color: #4ef037;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #434243;
+  }
+
+  .get-started-section h2{
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+    color: #4ef037;
+    font-weight: bold;
   }
 
 
