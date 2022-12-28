@@ -377,6 +377,9 @@
   
     ul {
       text-align: center;
+      flex-direction: row;
+      display: flex;
+      
     }
   
     .nav-link {
