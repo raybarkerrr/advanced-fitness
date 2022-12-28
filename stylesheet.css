@@ -27,6 +27,8 @@ header {
   height: 50px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 #brand {
@@ -378,6 +380,17 @@ header nav {
   .meet-your-trainers{
     text-align: center;
     background-color: #00b7c2;
+  }
+
+  .footer-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .fa-brands{
+    color: #4267B2;
+    font-size: 2em;
   }
 
   /* About Page */ 
