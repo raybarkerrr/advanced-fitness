@@ -418,6 +418,42 @@ header nav {
     font-weight: bold;
     letter-spacing: .1rem;
   }
+
+  /* Contact Page */
+
+  .form-labels{
+    background-color: #f1f1f1;
+    padding-top: 3rem;
+  }
+
+  .input-field{
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .6em;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+
+  .input-field-message{
+    width: 70%;
+    height: 150px;
+    border-radius: 8px;
+    resize: none;
+    border: 0;
+    padding: .8em;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  }
+
+  .form-button{
+    width: 5em;
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #e74c3c;
+    color: white;
+  }
+
   
 
 

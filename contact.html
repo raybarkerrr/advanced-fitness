@@ -13,32 +13,39 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
     </head>
+    <header>
+        <div id="brand"><img class="logo" src="Photos/StingrayLogo1.png"></div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li id="login"><a href="index.html">Home</a></li>
+            <li id="login"><a href="about.html" >About</a></li>
+            <li id="signup"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
     <body>
         <section class="get-started-section">
             <div class="get-started-plans">
                 <h1>CONTACT US</h1>
-                <h2>BEN FARINA</h2>
                 <p> placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
             </div>
             <form name="contact" method="POST" data-netlify="true">
                 <div class="form-labels">
-                    <h3>Name</h3>
                     <p>
                         <input type="text" class="input-field" placeholder="Name" id="name" name="name" />
                     </p>
-                    <h3>Email</h3>
                     <p>
                         <input type="email" class="input-field" placeholder="Email" id="email" name="email" />
                     </p>
-                    <h3>Phone</h3>
                     <p>
                         <input type="phone" class="input-field" placeholder="Phone" id="phone" name="phone" />
                     </p>
-                    <h3>Subject</h3>
                     <p>   
                         <input type="subject" class="input-field" placeholder="Subject" id="subject" name="subject" />
                     </p>
-                    <h3>Message</h3>
                     <p>
                         <textarea type="message" class="input-field-message" placeholder="Message" id="message" name="message" ></textarea>
                     </p>
