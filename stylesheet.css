@@ -61,26 +61,35 @@ ul li:hover {
   transition: 0.3s;
 }
 
-#login,
-#signup {
+#home,
+#about,
+#contact {
   border-radius: 5px;
   padding: 5px 8px;
 }
 
-#login {
+#home {
   border: 1px solid #498afb;
 }
 
-#signup {
+#about {
   border: 1px solid #ff3860;
 }
 
-#signup a {
+#contact {
+  border: 1px solid #4ef037;
+}
+
+#about a {
   color: #ff3860;
 }
 
-#login a {
+#home a {
   color: #498afb;
+}
+
+#contact a {
+  color: #4ef037;
 }
 
 #hamburger-icon {
