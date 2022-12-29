@@ -23,7 +23,7 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: #565759;
+  background-color: #d3d6db;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -133,11 +133,11 @@ ul li:hover {
 .mobile-menu {
   display: none;
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: #565759;
+  background-color: #d3d6db;
 }
 
 .mobile-menu li {
@@ -365,7 +365,7 @@ header nav {
     font-size: 1.1rem;
     line-height: 1.6em;
     margin: 15px;
-    color: #1bf5af;
+    color: #34495e;
     font-weight: bold;
     letter-spacing: .1rem;
 
@@ -376,7 +376,7 @@ header nav {
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    color: #34495e;
+    color: #1bf5af;
     letter-spacing: .1rem;
   }
 
@@ -444,7 +444,6 @@ header nav {
 
   .footer h3{
     font-size: 1rem;
-    margin: px;
     color: #1bf5af;
     font-weight: bold;
     letter-spacing: .1rem;
@@ -453,7 +452,6 @@ header nav {
   .footer p{
     padding-top: .5rem;
     font-size: .7rem;
-    margin: px;
     color: white;
     font-weight: bold;
     padding: 2% 7% 2% 7%;
@@ -505,7 +503,6 @@ header nav {
 
   .about-us-section h2{
     font-size: 1rem;
-    margin: px;
     color: #1bf5af;
     font-weight: bold;
     letter-spacing: .1rem;
@@ -521,6 +518,25 @@ header nav {
   }
 
   /* Contact Page */
+
+  .contact-form-section{
+    text-align: center;
+  }
+
+  .contact-form-title h1{
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .2rem;
+    color: #57595B;
+  }
+
+  .contact-form-title p{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    padding: 2% 7% 2% 7%;
+  }
 
   .form-labels{
     background-color: #f1f1f1;
@@ -554,11 +570,7 @@ header nav {
     background-color: #e74c3c;
     color: white;
   }
-
   
-
-
-
 
   /* Media Query */
   
