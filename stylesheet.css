@@ -372,7 +372,7 @@ header nav {
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    color: #434243;
+    color: #34495e;
     letter-spacing: .1rem;
   }
 
@@ -410,8 +410,12 @@ header nav {
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    color: white;
+    color: #e0e0e0;
     letter-spacing: .1rem;
+  }
+
+  .fa-solid{
+    outline-color: white;
   }
 
   /* Meet Your Trainers Section */
