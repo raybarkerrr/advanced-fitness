@@ -193,6 +193,7 @@ header nav {
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     color: #434243;
+    letter-spacing: .1rem;
   }
 
   .personalized-content h3{
@@ -201,10 +202,12 @@ header nav {
     padding-bottom: 15px;
     color: #4ef037;
     font-weight: bold;
+    letter-spacing: .1rem;
   }
 
   .personalized-content p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
 
   /* Specialize Section */
@@ -224,17 +227,19 @@ header nav {
     font-weight: lighter;
     color: #434243;
     padding-bottom: 0.5rem;
+    letter-spacing: .1rem;
   }
 
   .specialize-title p{
     color: #4ef037;
     font-size: 1.1em;
     font-weight: bold;
+    letter-spacing: .1rem;
   }
 
   .fa-solid{
     font-size: 4.5rem;
-    color: #4ef037;
+    color: #34495e;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
@@ -246,6 +251,7 @@ header nav {
   display: flex;
   text-align: center;
   background-color: #EFEFEE;
+  letter-spacing: .1rem;
 }
 
 .card-title h1{
@@ -327,12 +333,14 @@ header nav {
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
   color: #434243;
+  letter-spacing: .1rem;
+
 }
 
 .coaching-plan-title p{
   font-size: 1.1rem;
   padding: 2% 7% 2% 7%;
-  color: #4ef037;
+  color: #1bf5af;
   font-weight: bold;
 }
 
@@ -353,17 +361,19 @@ header nav {
     font-size: 1.1rem;
     line-height: 1.6em;
     margin: 15px;
-    color: #4ef037;
+    color: #1bf5af;
     font-weight: bold;
+    letter-spacing: .1rem;
+
   }
 
   .plans h2{
-    color: #4ef037;
     margin-top: 1rem;
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     color: #434243;
+    letter-spacing: .1rem;
   }
 
 
@@ -373,6 +383,35 @@ header nav {
 
   .carousel-inner{
     border-radius: 50%;
+  }
+
+  /* Get Started Section */
+
+  .get-started{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:2% 7% 2% 7%;
+    background-color: #393e46;
+  }
+
+  .get-started p{
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    margin: 15px;
+    color: #1bf5af;
+    font-weight: bold;
+    letter-spacing: .1rem;
+
+  }
+
+  .get-started h1{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: .1rem;
   }
 
   /* Meet Your Trainers Section */
@@ -396,35 +435,35 @@ header nav {
 
   /* About Page */ 
 
-  .get-started-image{
+  .about-us-image{
     width: 300px;
     height: auto;
     padding-bottom: 1rem;
   }
 
-  .get-started-section{
+  .about-us-section{
     justify-content: center;
     align-items: center;
     text-align: center;
   }
 
-  .get-started-plans{
+  .about-us{
     background-color: #929292;
     padding-bottom: 2rem;
     padding-top: 2rem;
   }
 
-  .get-started-plans-two{
+  .about-us-two{
     background-color: #57595B;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
-  .get-started-plans-two h1{
+  .about-us-two h1{
     color: #FFFFFF;
   }
 
-  .get-started-section h1{
+  .about-us-section h1{
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
@@ -433,11 +472,11 @@ header nav {
     letter-spacing: .2rem;
   }
 
-  .get-started-section h2{
+  .about-us-section h2{
     padding-top: 0.5rem;
     font-size: 1.3rem;
     padding-bottom: 15px;
-    color: #4ef037;
+    color: #434243;
     font-weight: bold;
     letter-spacing: .1rem;
   }
