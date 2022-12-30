@@ -583,6 +583,11 @@ header nav {
       justify-content: center;
     }
 
+    .specialize-icons-container{
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2% 16% 2% 10%;
+    }
 
   }
   
