@@ -280,7 +280,7 @@ header nav {
 }
 
 .card{
-    height: 15em;
+    height: 35em;
     width: 20em;
     margin: 10px;
     text-align: center;
@@ -299,13 +299,6 @@ header nav {
   color: black;
 }
 
-.card{
-    height: 15em;
-    width: 20em;
-    margin: 10px;
-    text-align: center;
-}
-
 /* Coaching Section 3 */
 
 .coaching-section-three{
@@ -318,13 +311,6 @@ header nav {
   color: black;
 }
 
-.card{
-  height: 15em;
-  width: 20em;
-  margin: 10px;
-  text-align: center;
-}
-
 /* Coaching Plan Section */
 
 .coaching-plan-title{
@@ -335,7 +321,7 @@ header nav {
 
 .coaching-plan-title h1{
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
   color: #434243;
@@ -348,11 +334,10 @@ header nav {
   padding: 2% 7% 2% 7%;
   color: #1bf5af;
   font-weight: bold;
+  font-size: 2rem;
 }
 
-.coaching-plan-image{
-    width: 320px;
-}
+
 
   /* Plans Section */
 
@@ -415,10 +400,6 @@ header nav {
     font-weight: lighter;
     color: #e0e0e0;
     letter-spacing: .1rem;
-  }
-
-  .fa-solid{
-    outline-color: white;
   }
 
   /* Meet Your Trainers Section */
@@ -523,6 +504,7 @@ header nav {
 
   .contact-form-section{
     text-align: center;
+    padding-top: 2rem;
   }
 
   .contact-form-title h1{
@@ -577,6 +559,13 @@ header nav {
   /* Media Query */
 
   @media only screen and (min-width: 1024px)  {
+
+    .fa-solid{
+      font-size: 5rem;
+    }
+
+    /* Card Section */
+    
     .card-title h1{
       text-align: center;
       align-items: center;
@@ -588,6 +577,39 @@ header nav {
       justify-content: space-between;
       padding: 2% 16% 2% 10%;
     }
+
+    .card-title h1{
+      display: flex;
+      text-align: center;
+      letter-spacing: .1rem;
+      margin-top: 3rem;
+      font-size: 2.7rem;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: lighter;
+      color: #434243;
+      padding-bottom: 0.5rem;
+    }
+    
+    .coaching-section{
+        display: flex;
+        justify-content: center;
+        background-color: #EFEFEE;
+    }
+    
+    .card{
+        height: 35em;
+        width: 40em;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .card p{
+      font-size: 22px;
+      letter-spacing: .1rem;
+      padding: 2% 7% 2% 7%;
+    }
+
+
 
   }
   
