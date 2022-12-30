@@ -390,7 +390,16 @@ header nav {
     color: #1bf5af;
     font-weight: bold;
     letter-spacing: .1rem;
+  }
 
+  .get-started h2{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+    color: #e0e0e0;
+    letter-spacing: .1rem;
   }
 
   .get-started h1{
@@ -414,7 +423,7 @@ header nav {
     justify-content: center;
     text-align: center;
     background-color: #565759;
-    
+    padding-top: 2rem;
   }
 
   .footer h1{
@@ -611,6 +620,10 @@ header nav {
 
     /* Plans Section */
 
+    .plans{
+      padding: 2% 18% 2% 18%;
+    }
+
     .plans p{
       font-size: 1.5rem;
     }
@@ -619,9 +632,21 @@ header nav {
       font-size: 3rem;
     }
 
+    /* Get Started Section */
 
+    .get-started h2{
+      font-size: 3rem;
+    }
 
-  }
+    .get-started h1{
+      font-size: 3rem;
+    }
+
+    .get-started p{
+      font-size: 1.5rem;
+      padding: 2% 18% 2% 18%;
+
+    }
   
   @media only screen and (min-width: 900px) {
     .nav-toggle {
