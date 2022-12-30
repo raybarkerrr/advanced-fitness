@@ -609,6 +609,16 @@ header nav {
       padding: 2% 7% 2% 7%;
     }
 
+    /* Plans Section */
+
+    .plans p{
+      font-size: 1.5rem;
+    }
+  
+    .plans h2{
+      font-size: 3rem;
+    }
+
 
 
   }
