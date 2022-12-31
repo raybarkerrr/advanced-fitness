@@ -238,6 +238,7 @@ header nav {
     color: #434243;
     padding-bottom: 0.5rem;
     letter-spacing: .1rem;
+    padding: 2% 7% 2% 7%;
   }
 
   .specialize-title p{
@@ -259,6 +260,7 @@ header nav {
 
 .card-title h1{
   display: flex;
+  justify-content: center;
   text-align: center;
   letter-spacing: .1rem;
   margin-top: 3rem;
@@ -567,86 +569,6 @@ header nav {
 
   /* Media Query */
 
-  @media only screen and (min-width: 1024px)  {
-
-    .fa-solid{
-      font-size: 5rem;
-    }
-
-    /* Card Section */
-    
-    .card-title h1{
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .specialize-icons-container{
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 2% 16% 2% 10%;
-    }
-
-    .card-title h1{
-      display: flex;
-      text-align: center;
-      letter-spacing: .1rem;
-      margin-top: 3rem;
-      font-size: 2.7rem;
-      font-family: 'Rajdhani', sans-serif;
-      font-weight: lighter;
-      color: #434243;
-      padding-bottom: 0.5rem;
-    }
-    
-    .coaching-section{
-        display: flex;
-        justify-content: center;
-        background-color: #EFEFEE;
-    }
-    
-    .card{
-        height: 35em;
-        width: 40em;
-        margin: 10px;
-        text-align: center;
-    }
-    
-    .card p{
-      font-size: 22px;
-      letter-spacing: .1rem;
-      padding: 2% 7% 2% 7%;
-    }
-
-    /* Plans Section */
-
-    .plans{
-      padding: 2% 18% 2% 18%;
-    }
-
-    .plans p{
-      font-size: 1.5rem;
-    }
-  
-    .plans h2{
-      font-size: 3rem;
-    }
-
-    /* Get Started Section */
-
-    .get-started h2{
-      font-size: 3rem;
-    }
-
-    .get-started h1{
-      font-size: 3rem;
-    }
-
-    .get-started p{
-      font-size: 1.5rem;
-      padding: 2% 18% 2% 18%;
-
-    }
   
   @media only screen and (min-width: 900px) {
     .nav-toggle {
@@ -684,5 +606,108 @@ header nav {
       background: rgb(70, 70, 70);
       padding: 8px 15px;
       border-radius: 4px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px)  {
+
+
+    .fa-solid{
+      font-size: 5rem;
+    }
+
+    .inner-container h1{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      font-size: 100px;
+    }
+
+    /* Personalized Content */
+
+    .personalized-content p{
+      padding: 2% 15% 2% 15%;
+    }
+
+    .personalized-content h1{
+      font-size: 2.7rem;
+    }
+
+    .specialize-title h1{
+      font-size: 2.7rem;
+    }
+
+    /* Card Section */
+    
+    .card-title h1{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .specialize-icons-container{
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2% 16% 2% 10%;
+    }
+
+    .card-title h1{
+      display: flex;
+      text-align: center;
+      letter-spacing: .1rem;
+      margin-top: 3rem;
+      font-size: 2.7rem;
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: lighter;
+      color: #434243;
+      padding-bottom: 0.5rem;
+    }
+    
+    .coaching-section{
+        display: flex;
+        justify-content: center;
+        background-color: #EFEFEE;
+    }
+    
+    .card{
+        height: 35em;
+        width: 35em;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .card p{
+      font-size: 18px;
+      letter-spacing: .1rem;
+      padding: 2% 20% 2% 20%;
+    }
+
+    /* Plans Section */
+
+    .plans{
+      padding: 2% 18% 2% 18%;
+    }
+
+    .plans p{
+      font-size: 1.2rem;
+    }
+  
+    .plans h2{
+      font-size: 2.5rem;
+    }
+
+    /* Get Started Section */
+
+    .get-started h2{
+      font-size: 2.5rem;
+    }
+
+    .get-started h1{
+      font-size: 2.5rem;
+    }
+
+    .get-started p{
+      font-size: 1.5rem;
+      padding: 2% 18% 2% 18%;
     }
   }
