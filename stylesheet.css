@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #353836;
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -54,9 +53,7 @@ ul a {
   color: white;
 }
 
-ul li {
-  padding: 5px;
-}
+
 
 ul li:hover {
   transform: scale(1.1);
@@ -210,8 +207,9 @@ header nav {
   }
 
   .personalized-content p{
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: bold;
   }
 
   /* Specialize Section */
@@ -282,10 +280,14 @@ header nav {
 }
 
 .card{
-    height: 35em;
+    height: 17em;
     width: 20em;
     margin: 10px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    border-radius: 1rem;
+    background-color: white;
+    color: #34495e;
+    font-size: 14px;
 }
 
 
@@ -339,8 +341,6 @@ header nav {
   font-size: 2rem;
 }
 
-
-
   /* Plans Section */
 
   .plans{
@@ -357,7 +357,6 @@ header nav {
     color: #34495e;
     font-weight: bold;
     letter-spacing: .1rem;
-
   }
 
   .plans h2{
@@ -367,6 +366,11 @@ header nav {
     font-weight: lighter;
     color: #1bf5af;
     letter-spacing: .1rem;
+  }
+
+  .plans ul{
+    flex-direction: column;
+    color: #34495e;
   }
 
 
@@ -670,8 +674,8 @@ header nav {
     }
     
     .card{
-        height: 35em;
-        width: 35em;
+        height: 23em;
+        width: 25em;
         margin: 10px;
         text-align: center;
     }
