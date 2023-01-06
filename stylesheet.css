@@ -325,7 +325,7 @@ header nav {
 
 .coaching-plan-title h1{
   margin-top: 3rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
   color: #434243;
@@ -334,11 +334,10 @@ header nav {
 }
 
 .coaching-plan-title p{
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 2% 7% 2% 7%;
   color: #1bf5af;
   font-weight: bold;
-  font-size: 2rem;
 }
 
   /* Plans Section */
