@@ -229,7 +229,6 @@ header nav {
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    padding-bottom: 0.5rem;
     letter-spacing: .1rem;
     padding: 2% 7% 2% 7%;
   }
@@ -239,6 +238,7 @@ header nav {
     font-size: 1.1em;
     font-weight: bold;
     letter-spacing: .1rem;
+    padding-top: 1rem;
   }
 
   .specialize-icons-container .fa-solid{
@@ -255,6 +255,10 @@ header nav {
 
 /* Coaching Section */
 
+.coaching-plan-one{
+  padding-bottom: 2rem;
+}
+
 .card-title h1{
   display: flex;
   justify-content: center;
@@ -265,13 +269,18 @@ header nav {
   font-family: 'Rajdhani', sans-serif;
   font-weight: lighter;
   color: #434243;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2rem;
 }
 
 .coaching-section{
     display: flex;
     justify-content: center;
     background-color: #EFEFEE;
+    padding-top: 2rem;
+}
+
+.coaching-section-three{
+  padding-bottom: 2rem;
 }
 
 .card-section p{
