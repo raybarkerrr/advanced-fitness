@@ -209,40 +209,40 @@ header nav {
     font-size: 1.1rem;
     line-height: 1.7rem;
     font-weight: bold;
+    padding-bottom: 1rem;
   }
 
   /* Specialize Section */
 
-  .specialize-title{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-  }
-
   .specialize-icons-container{
     margin-top: 3rem;
-    color: black;
+    color: white;
+    background-color: #393e46;
     display: flex;
     text-align: center;
     flex-direction: column;
     padding: 2% 7% 2% 7%;
+    padding-bottom: 2rem;
   }
 
-  .specialize-title h1{
+  .specialize-icons-container h1{
     font-size: 2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
-    color: #434243;
     padding-bottom: 0.5rem;
     letter-spacing: .1rem;
     padding: 2% 7% 2% 7%;
   }
 
-  .specialize-title p{
+  .specialize-icons-container p{
     color: #1bf5af;
     font-size: 1.1em;
     font-weight: bold;
     letter-spacing: .1rem;
+  }
+
+  .specialize-icons-container .fa-solid{
+    color: white;
   }
 
   .fa-solid{
@@ -613,6 +613,10 @@ header nav {
   }
 
   @media only screen and (min-width: 1024px)  {
+
+    .hero-image-container{
+      background-attachment: fixed;
+    }
 
 
     .fa-solid{
