@@ -26,9 +26,9 @@ header {
   overflow: hidden;
 }
 
-#brand {
+.brand h1{
   font-weight: bold;
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   color: #1bf5af;
   font-family: 'Rajdhani', sans-serif;
@@ -36,7 +36,16 @@ header {
   padding-top: 13px;
 }
 
-#brand a {
+.brand h3{
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  color: #1bf5af;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: lighter;
+}
+
+.brand a {
   color: #09c372;
 }
 
@@ -591,6 +600,12 @@ header nav {
     background-color: #e74c3c;
     color: white;
   }
+
+  /* Contact Us Home */
+
+  .contact-us-home{
+    color: black;
+  }
   
 
   /* Media Query */
@@ -656,7 +671,7 @@ header nav {
     /* Personalized Content */
 
     .personalized-content p{
-      padding: 2% 15% 2% 15%;
+      padding-right: 15rem;
     }
 
     .personalized-content h1{
