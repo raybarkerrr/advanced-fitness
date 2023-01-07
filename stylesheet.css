@@ -214,14 +214,16 @@ header nav {
 
   /* Specialize Section */
 
-  .specialize-icons-container{
-    margin-top: 3rem;
+
+
+  .specialize-section{
+    margin-top: 2.5rem;
     color: white;
     background-color: #393e46;
     display: flex;
     text-align: center;
+    justify-content: center;
     flex-direction: column;
-    padding: 2% 7% 2% 7%;
     padding-bottom: 2rem;
   }
 
@@ -230,12 +232,11 @@ header nav {
     font-family: 'Rajdhani', sans-serif;
     font-weight: lighter;
     letter-spacing: .1rem;
-    padding: 2% 7% 2% 7%;
   }
 
   .specialize-icons-container p{
     color: #1bf5af;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
     letter-spacing: .1rem;
     padding-top: 1rem;
@@ -354,7 +355,7 @@ header nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding:2% 7% 2% 7%;
+    padding: 2% 7% 2% 7%;
   }
 
   .plans p{
@@ -664,7 +665,7 @@ header nav {
     .specialize-icons-container{
       flex-direction: row;
       justify-content: space-between;
-      padding: 2% 16% 2% 10%;
+      padding: 2% 16% 2% 16%;
     }
 
     .card-title h1{
