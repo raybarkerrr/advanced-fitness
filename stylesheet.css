@@ -604,7 +604,21 @@ header nav {
   /* Contact Us Home */
 
   .contact-us-home{
+    align-items: center;
+    text-align: center;
     color: black;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  .contact-us-home button{
+    width: 5em;
+    width: 70%;
+    border-radius: 8px;
+    border: 0;
+    padding: .8em;
+    background-color: #e74c3c;
+    color: white;
   }
   
 
