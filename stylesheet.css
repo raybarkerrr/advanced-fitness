@@ -571,6 +571,7 @@ header nav {
   .form-labels{
     background-color: #f1f1f1;
     padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 
   .input-field{
@@ -609,10 +610,13 @@ header nav {
     color: black;
     padding-bottom: 3rem;
     padding-top: 3rem;
+    background-color: #EFEFEE;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
   }
 
   .contact-us-home h1{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
   }
 
   .contact-us-home button{
