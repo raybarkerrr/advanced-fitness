@@ -611,9 +611,14 @@ header nav {
     padding-top: 3rem;
   }
 
+  .contact-us-home h1{
+    padding-bottom: 1rem;
+  }
+
   .contact-us-home button{
     width: 5em;
     width: 70%;
+    font-size: 1rem;
     border-radius: 8px;
     border: 0;
     padding: .8em;
@@ -693,6 +698,7 @@ header nav {
     }
 
     .specialize-title h1{
+      padding-top: 1rem;
       font-size: 2.7rem;
     }
 
